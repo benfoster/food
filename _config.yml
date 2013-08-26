@@ -11,7 +11,7 @@ timezone:         GMT
 
 links:
   - name:         About
-    url:          /about
+    url:          /food/about
   - name:         Blog
     url:          http://ben.onfabrik.com
     external:     true
@@ -20,6 +20,6 @@ links:
     external:     true
 pygments:         true
 permalink:        pretty
-#markdown:         rdiscount
-#rdiscount:
-#  extensions:     [smart]
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
