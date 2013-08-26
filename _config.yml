@@ -1,3 +1,25 @@
-name: food
-markdown: redcarpet
-pygments: true
+baseurl:          /food
+url:              http://benfoster.github.io/food
+title:            food for thought
+description:      Some of my favourite recipes.
+signoff:          Ben Foster
+timezone:         GMT
+
+#disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+#facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+#google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://ben.onfabrik.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/benfoster
+    external:     true
+pygments:         true
+permalink:        pretty
+#markdown:         rdiscount
+#rdiscount:
+#  extensions:     [smart]
